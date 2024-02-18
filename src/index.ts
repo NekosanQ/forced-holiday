@@ -14,5 +14,5 @@ const fs = require("node:fs");
     console.log(`今日は${day_of_week}です。`);
     fs.appendFile("logs/history.log", `[${date}] 今日は${day_of_week}です！\n`, (err: Error) => {
         if (err) throw err;
-    })
+    });
 })();
