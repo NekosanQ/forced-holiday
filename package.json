@@ -1,6 +1,6 @@
 {
   "name": "forced-holiday",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "強制的に休日にするスクリプト",
   "main": "index.js",
   "scripts": {
